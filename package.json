@@ -1,6 +1,6 @@
 {
   "name": "resitail-slack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A resitail hook that streams residue logs to slack",
   "homepage": "https://github.com/muflihun/resitail",
   "author": "Muflihun Labs <info@muflihun.com>",
