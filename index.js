@@ -20,9 +20,9 @@
 const slackbot = require('slack-node');
 const merge = require('lodash.merge');
 
-function SlackHook(config, serverInfo) {
-    this.config = config;
-    this.serverInfo = serverInfo;
+function SlackHook(options) {
+    this.config = options.config;
+    this.serverInfo = options.serverInfo;
 
     if (!this.config.channels) {
         throw ('Invalid configuration. Missing: channels');
@@ -70,4 +70,4 @@ function SlackHook(config, serverInfo) {
     }
 }
 
-module.exports = (config, serverInfo) => new SlackHook(config, serverInfo);
+module.exports = (options) => new SlackHook(options);
