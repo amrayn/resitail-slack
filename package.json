@@ -2,8 +2,8 @@
   "name": "resitail-slack",
   "version": "1.0.4",
   "description": "A resitail hook that streams residue logs to slack",
-  "homepage": "https://github.com/muflihun/resitail-slack",
-  "author": "Muflihun Labs <info@muflihun.com>",
+  "homepage": "https://github.com/amrayn/resitail-slack",
+  "author": "Amrayn Web Services <opensource@amrayn.com>",
   "license": "Apache-2.0",
   "dependencies": {
     "lodash.merge": "^4.6.1",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/muflihun/resitail-slack.git"
+    "url": "http://github.com/amrayn/resitail-slack.git"
   },
   "keywords": [
     "tail",

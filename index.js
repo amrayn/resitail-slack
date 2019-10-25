@@ -1,5 +1,5 @@
 //
-//  Copyright 2017-present Muflihun Labs
+//  Copyright 2017-present Amrayn Web Services
 //
 //  Author: @abumusamq
 //
